@@ -35,12 +35,13 @@ Other possible options:
 -c:  specify domain coverage threshold (default: 0.3)
 ```
 
-The hmm file should be in HMMER3.0's hmm file format. These files can be downloaded from Pfam ftp. The nucleotide sequence file should be in fasta format.
+The hmm file should be in HMMER3.0's hmm file format. These files can be downloaded from Pfam (http://pfam.xfam.org/). The nucleotide sequence file should be in fasta format.
  
 
 # Output
 
 The output of MetaDomain shows the model length, aligned read number, domain coverage and whether it is transcribed. Here is an example:  
+
 `PF00411 110 19 0.881818 transcribed`
 
 From the output we can tell that the length of PF00411 is 110. There are 19 reads aligned to this domain. The domain coverage is 88.18%. Based on the user-specified thresholds, this domain is transcribed.
