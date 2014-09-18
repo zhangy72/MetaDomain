@@ -46,7 +46,7 @@ The output of MetaDomain shows the model length, aligned read number, domain cov
 From the output we can tell that the length of PF00411 is 110. There are 19 reads aligned to this domain. The domain coverage is 88.18%. Based on the user-specified thresholds, this domain is transcribed.
 
 
-# Referencing MetaDomain  
+# Reference MetaDomain  
 
 MetaDomain can be referenced as:   
 
@@ -55,7 +55,7 @@ MetaDomain can be referenced as:
 
 # License
 
-Copyright (C) 2014 Yuan Zhang, Yanni Sun. 
+Copyright (C) 2014 Yuan Zhang and Yanni Sun. 
 
 You may redistribute this software under the terms of GNU GENERAL PUBLIC LICENSE.
 
