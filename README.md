@@ -56,7 +56,7 @@ MetaDomain can be referenced as:
 
 # License
 
-Copyright (C) 2014 Yuan Zhang and Yanni Sun. 
+Copyright (C) 2014, Yuan Zhang and Yanni Sun. 
 
 You may redistribute this software under the terms of GNU GENERAL PUBLIC LICENSE.
 
