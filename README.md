@@ -7,12 +7,15 @@ Send emails to nick.zhangyuan@gmail.com
 # Installation
 
 1. Clone the repository:  
+
   `git clone git@github.com:zhangy72/MetaDomain.git`
 
 2. g++ compiler is required in your Unix system. To install component bin files of MetaDomain, run the Makeme file using the following command:  
+
   `make`
 
 3. Make sure MetaDomain.sh is executable in your environment. If not you can use the command:  
+
   `chmod 755 MetaDomain.sh`
 
 
@@ -21,6 +24,7 @@ Send emails to nick.zhangyuan@gmail.com
 The installation will generate two bin files: hmmscore and generate_domain_expression. The former one is to align short reads to query Pfam domain and the latter is to classify the Pfam domain based on the alignment result. Make sure these two bin files are placed in the same folder with the pipeline of MetaDomain, MetaDomain.sh.
 
 To run MetaDomain pipeline, use the following command:  
+
 `./MetaDomain.sh -m <Pfam HMM file> -f <fasta file> -o <output file> [other options]`
 
 Other possible options:  
